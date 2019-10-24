@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="project.certificate">
+    
+
+        <Grid Margin="3,3,3,3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="100"/>
+            <RowDefinition Height="100"/>
+        </Grid.RowDefinitions>
+
+            <StackLayout MinimumHeightRequest="30" MinimumWidthRequest="50" Grid.Row="0" Grid.ColumnSpan="2" BackgroundColor="WhiteSmoke">
+
+                <Label Text="NZ Certificate in IT (Level 5)"  FontSize="24" TextColor="Black" FontFamily="ovo" BackgroundColor="YellowGreen" HorizontalTextAlignment="Center"/>
+            </StackLayout>
+
+        <Label Text="Comp 5201 Information Technology Operations" FontSize="14" Grid.Row="1" Grid.Column="0" BackgroundColor="YellowGreen"/>
+        <Label Text="Comp.5202 Fundamentals of Programming and Problem Solving" FontSize="14" Grid.Row="1" Grid.Column="1" BackgroundColor="YellowGreen" />
+        <Label Text="Comp.5203 Professional Practice" FontSize="14" Grid.Row="2" Grid.Column="0" BackgroundColor="YellowGreen" />
+        <Label Text="Comp.5204 Enterprise" FontSize="14" Grid.Row="2" Grid.Column="1" BackgroundColor="YellowGreen"/>
+
+        <ImageButton x:Name="back" Clicked="Back_Clicked" Grid.Row="3" Grid.Column="0" HorizontalOptions="End" Source="Assets/back.PNG"></ImageButton>
+        <!--<ImageButton x:Name="next" Clicked="Next_Clicked" Grid.Row="3" Grid.Column="1" HorizontalOptions="End" Source="Assets/next.PNG"></ImageButton>-->
+
+    </Grid>
+</ContentPage>

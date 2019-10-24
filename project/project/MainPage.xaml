@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:project"
+             x:Class="project.MainPage">
+
+
+    <Grid Margin="1,0,0,1">
+        <!--<Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="2*" />
+            </Grid.ColumnDefinitions>-->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="150"/>
+        </Grid.RowDefinitions>
+
+        <StackLayout MinimumHeightRequest="150" MinimumWidthRequest="150" Grid.Row="0" BackgroundColor="LightGreen">
+            <Image Source="Assets/main.jpg"  WidthRequest="150"  HeightRequest="150"/>
+        </StackLayout>
+        <!--<ImageButton x:Name="Certificate" Clicked="Certificate_Clicked" ></ImageButton>-->
+        <!--<StackLayout Spacing="0" MinimumHeightRequest="50" MinimumWidthRequest="50" Grid.Row="1" BackgroundColor="Gray" >-->
+
+        <Button Text="Certificate" Margin="3,3,3,3" Grid.Row="1" Grid.Column="0" FontSize="8" WidthRequest="80" TextColor="Black" HorizontalOptions="Start" FontFamily="ovo" BackgroundColor="GreenYellow" x:Name="Certificate" Clicked="Certificate_Clicked"/>
+        <Button Text="Diploma" Margin="3,3,3,3" FontSize="8" WidthRequest="80" Grid.Row="1" Grid.Column="0" TextColor="Black" FontFamily="ovo" HorizontalOptions="Center" BackgroundColor="GreenYellow" x:Name="diploma" Clicked="diploma_Clicked"/>
+        <Button Text="Degree" Margin="3,3,3,3" FontSize="8" WidthRequest="80" Grid.Row="1" Grid.Column="0" TextColor="Black" FontFamily="ovo" HorizontalOptions="End" BackgroundColor="GreenYellow"  x:Name="degree" Clicked="degree_Clicked"/>
+        <!--</StackLayout>-->
+        <StackLayout Spacing="0" MinimumHeightRequest="50" MinimumWidthRequest="50" Grid.Row="2" BackgroundColor="White">
+
+            <Label Text="Our Partnerships"  HorizontalTextAlignment="Center" FontSize="18"  />
+
+
+
+          <Label Text="  Toi Ohomai aims to create purposeful connections throughout our region, forming constellations of excellence, knowledge, people, partnerships and innovation united in the exchange of knowledge.
+
+Embracing the value of whanaungatanga, connecting with others, we actively seek relationships with industry, other tertiary providers, community groups, iwi and hapu, and of course, with our students and staff.
+
+These partnerships take many forms, from partnering with local iwi to provide targeted education opportunities in remote parts of our region, to other institutions to delivery education pathways for higher learning, and in many parts of the world to bring international students to New Zealand."   
+                   FontSize="8" Margin="3,3,3,0"/>
+        </StackLayout>
+    </Grid>
+</ContentPage>
