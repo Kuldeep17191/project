@@ -16,5 +16,10 @@ namespace project
 		{
 			InitializeComponent ();
 		}
-	}
+        private async void Back_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PopAsync();
+        }
+
+    }
 }

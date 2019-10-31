@@ -3,33 +3,31 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="project.degree">
     <Grid Margin="10,10,10,10">
-        <Grid.ColumnDefinitions>
+        <!--<Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" />
             <ColumnDefinition Width="*" />
-        </Grid.ColumnDefinitions>
+        </Grid.ColumnDefinitions>-->
         <Grid.RowDefinitions>
             <RowDefinition Height="50"/>
-            <RowDefinition Height="100"/>
-            <RowDefinition Height="100"/>
-            <RowDefinition Height="100"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
         </Grid.RowDefinitions>
         <StackLayout MinimumHeightRequest="30" MinimumWidthRequest="50" Grid.Row="0" Grid.ColumnSpan="2" BackgroundColor="WhiteSmoke">
 
-            <Label Text="Degree"  FontSize="24" TextColor="Black" FontFamily="ovo" BackgroundColor="GreenYellow" HorizontalTextAlignment="Center"/>
+            <Label Text="Degree"  FontSize="24" TextColor="Black" FontFamily="ovo" BackgroundColor="YellowGreen" HorizontalTextAlignment="Center"/>
         </StackLayout>
 
 
-        <Label Text="Comp 5201 Information Technology Operations" Grid.Row="1" Grid.Column="0" BackgroundColor="YellowGreen"/>
-        <Label Text="Comp.5202 Fundamentals of Programming and Problem Solving" Grid.Row="1" Grid.Column="1" BackgroundColor="YellowGreen" />
-        <Label Text="Comp.5203 Professional Practice" Grid.Row="2" Grid.Column="0" BackgroundColor="YellowGreen" />
-        <Label Text="Comp.5204 Enterprise" Grid.Row="2" Grid.Column="1" BackgroundColor="YellowGreen"/>
-        <!--<Image Source="Assets/1.png" Grid.Row="1" Grid.Column="0" BackgroundColor="AliceBlue"/>
-    <Image Source="Assets/2.png" Grid.Row="1" Grid.Column="1" BackgroundColor="AliceBlue"/-->
-        <!--<ImageButton x:Name="back" Clicked="Back_Clicked" HorizontalOptions="End" Source="Assets/back.PNG"></ImageButton>
-        <ImageButton x:Name="next" Clicked="Next_Clicked" HorizontalOptions="End" Source="Assets/next.PNG"></ImageButton>-->
-        <ImageButton x:Name="back" Clicked="Back_Clicked" Grid.Row="3" Grid.Column="0" HorizontalOptions="Start" Source="Assets/back.PNG"></ImageButton>
-        <ImageButton x:Name="next" Clicked="Next_Clicked" Grid.Row="3" Grid.Column="1" HorizontalOptions="End" Source="Assets/next.PNG"></ImageButton>
-
-
+        <Label Text="level 5"   Grid.Row="1" Grid.ColumnSpan="2"  HorizontalTextAlignment="Center" BackgroundColor="YellowGreen"/>
+        <Label Text="+"   Grid.Row="2" Grid.ColumnSpan="2" HorizontalTextAlignment="Center" BackgroundColor="White"/>
+        <Label Text="level 6"   Grid.Row="3"  Grid.ColumnSpan="2" HorizontalTextAlignment="Center" BackgroundColor="YellowGreen" />
+        <Label Text="+"   Grid.Row="4" Grid.ColumnSpan="2" HorizontalTextAlignment="Center" BackgroundColor="White"/>
+        <Label Text="level 7"  Grid.Row="5"  Grid.ColumnSpan="2" HorizontalTextAlignment="Center" BackgroundColor="YellowGreen" />
+        <ImageButton x:Name="next" Clicked="Next_Clicked" Grid.Row="6" Grid.Column="2" HorizontalOptions="Center" Source="Assets/next.PNG"></ImageButton>
     </Grid>
 </ContentPage>
+    

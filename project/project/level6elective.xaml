@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="project.level6elective">
+   
+        <Grid Margin="10,10,10,10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="70"/>
+
+        </Grid.RowDefinitions>
+
+      
+        <Label Text="Level 6 Elective List" Grid.Row="0" Grid.ColumnSpan="2"  FontSize="20" VerticalTextAlignment= "Center" TextDecorations="Underline" TextColor="Black" FontFamily="ovo" BackgroundColor="GreenYellow" HorizontalTextAlignment="Center"/>
+
+        <Label Text="Comp 6201 Routing and Switching" VerticalTextAlignment="Center" Grid.Row="1" Grid.Column="0" BackgroundColor="YellowGreen"/>
+        <Label Text="Comp.6202 Scaling Networks" Grid.Row="1" Grid.Column="1" BackgroundColor="YellowGreen" />
+        <Label Text="Comp.6203 Connecting Networks" Grid.Row="2" Grid.Column="0" BackgroundColor="YellowGreen" />
+        <Label Text="Comp 6204 Voice Networks" VerticalTextAlignment="Center" Grid.Row="2" Grid.Column="1" BackgroundColor="YellowGreen"/>
+        <Label Text="Comp.6205 Professional Practice" Grid.Row="3" Grid.Column="0" BackgroundColor="YellowGreen" />
+        <Label Text="Comp.6206 Network Security" Grid.Row="3" Grid.Column="1" BackgroundColor="YellowGreen" />
+        <Label Text="Comp 6207 Special Topic" VerticalTextAlignment="Center" Grid.Row="4" Grid.Column="0" BackgroundColor="YellowGreen"/>
+        <Label Text="Comp.6208 Project1(15)" Grid.Row="4" Grid.Column="1" BackgroundColor="YellowGreen" />
+        <Label Text="Comp.6209 System Analysis and Design" Grid.Row="5" Grid.Column="0" BackgroundColor="YellowGreen" />
+        <Label Text="Comp 6210 Web Services and Design Methodology" VerticalTextAlignment="Center" Grid.Row="5" Grid.Column="1" BackgroundColor="YellowGreen"/>
+        <Label Text="Comp.6211 Algorithm and Data Structures" Grid.Row="6" Grid.Column="0" BackgroundColor="YellowGreen" />
+        <Label Text="Comp.6212 Data Management" Grid.Row="6" Grid.Column="1" BackgroundColor="YellowGreen" />
+        <Label Text="Comp 6213 Project Management" VerticalTextAlignment="Center" Grid.Row="7" Grid.Column="0" BackgroundColor="YellowGreen"/>
+        <Label Text="Comp.6214 Project2(30)" Grid.Row="7" Grid.Column="1" BackgroundColor="YellowGreen" />
+        <Label Text="Comp.6215 Graphical User Interface Programming" Grid.Row="8" Grid.Column="0" BackgroundColor="YellowGreen" />
+        <Label Text="Comp 6216 Multimedia" VerticalTextAlignment="Center" Grid.Row="8" Grid.Column="1" BackgroundColor="YellowGreen"/>
+        <Label Text="Comp.6217 Hardware Technology" Grid.Row="9" Grid.Column="0" BackgroundColor="YellowGreen" />
+        <ImageButton x:Name="back" Clicked="Back_Clicked" Grid.Row="10" VerticalOptions="Center" HorizontalOptions="Center" Source="Assets/back.PNG"></ImageButton>
+    </Grid>
+</ContentPage>

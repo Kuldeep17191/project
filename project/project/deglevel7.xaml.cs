@@ -10,44 +10,51 @@ using Xamarin.Forms.Xaml;
 namespace project
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class dip75 : ContentPage
+	public partial class deglevel7 : ContentPage
 	{
-		public dip75 ()
+		public deglevel7 ()
 		{
 			InitializeComponent ();
 		}
+        private async void Next_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new deglevel7());
+
+        }
         private async void Back_Clicked(object sender, EventArgs e)
         {
             await Navigation.PopAsync();
         }
-        private async void level61elective_Clicked(object sender, EventArgs e)
+
+        private async void deg61_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new level6elective());
         }
-        private async void level62elective_Clicked(object sender, EventArgs e)
+        private async void deg62_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new level6elective());
         }
-        private async void level63elective_Clicked(object sender, EventArgs e)
+        private async void deg71_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new level6elective());
+            await Navigation.PushAsync(new level7elective());
+        }
+        private async void deg72_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new level7elective());
+        }
+        private async void deg73_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new level7elective());
+        }
+        private async void deg74_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new level7elective());
+        }
+        private async void deg75_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new level7elective());
         }
 
-        private async void level71elective_Clicked(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new level7elective());
-        }
-        private async void level72elective_Clicked(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new level7elective());
-        }
-        private async void level73elective_Clicked(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new level7elective());
-        }
-        private async void level74elective_Clicked(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new level7elective());
-        }
+
     }
 }

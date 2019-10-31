@@ -26,8 +26,8 @@
         </StackLayout>
 
 
-        <Button Text="NZ Diploma in Web Development(level 5)" x:Name="dip51" Clicked="dip51_Clicked" WidthRequest="200" Grid.Row="1" BackgroundColor="YellowGreen"/>
-        <Button Text="NZ Diploma in Technical Support(level 5)" x:Name="dip52" Clicked="dip52_Clicked" Grid.Row="2" BackgroundColor="YellowGreen" />
+        <Button Text="NZ Diploma in Web Development and design(level 5)" x:Name="dip51" Clicked="dip51_Clicked" WidthRequest="200" Grid.Row="1" BackgroundColor="YellowGreen"/>
+        <Button Text="NZ Diploma in IT Technical Support(level 5)" x:Name="dip52" Clicked="dip52_Clicked" Grid.Row="2" BackgroundColor="YellowGreen" />
         <Button Text="NZ Diploma in Networking(level 6)" x:Name="dip61" Clicked="dip61_Clicked" Grid.Row="3" BackgroundColor="YellowGreen" />
         <Button Text="NZ Diploma in Software Development(level 6)" x:Name="dip62" Clicked="dip62_Clicked" Grid.Row="4" BackgroundColor="YellowGreen" />
         <Button Text="Graduate Diploma of Networking and Technical Support (level 7)" x:Name="dip71" Clicked="dip71_Clicked" Grid.Row="5" BackgroundColor="YellowGreen" />

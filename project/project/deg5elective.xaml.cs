@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace project
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class dip62 : ContentPage
+	public partial class deg5elective : ContentPage
 	{
-		public dip62 ()
+		public deg5elective ()
 		{
 			InitializeComponent ();
 		}

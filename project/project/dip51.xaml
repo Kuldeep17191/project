@@ -9,25 +9,35 @@
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="50"/>
-            <RowDefinition Height="100"/>
-            <RowDefinition Height="100"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="70"/>
             <RowDefinition Height="100"/>
         </Grid.RowDefinitions>
-        <StackLayout MinimumHeightRequest="30" MinimumWidthRequest="50" Grid.Row="0" Grid.ColumnSpan="2" BackgroundColor="WhiteSmoke">
+        <StackLayout MinimumHeightRequest="30" MinimumWidthRequest="50" Grid.Row="0" Grid.ColumnSpan="2" BackgroundColor="Black" >
 
-            <Label Text="Diploma"  FontSize="24" TextColor="Black" FontFamily="ovo" BackgroundColor="GreenYellow" HorizontalTextAlignment="Center"/>
+            <Label Text="NZ Diploma in Web Development and design"  FontSize="24" TextColor="Black" FontFamily="ovo" BackgroundColor="GreenYellow" HorizontalTextAlignment="Center"/>
+            
         </StackLayout>
 
+        <Label Text="Semester1" Grid.Row="1" Grid.ColumnSpan="2"  FontSize="20" VerticalTextAlignment= "Center" TextDecorations="Underline" TextColor="Black" FontFamily="ovo" BackgroundColor="GreenYellow" HorizontalTextAlignment="Center"/>
 
-        <Label Text="Comp 5201 Information Technology Operations" Grid.Row="1" Grid.Column="0" BackgroundColor="YellowGreen"/>
-        <Label Text="Comp.5202 Fundamentals of Programming and Problem Solving" Grid.Row="1" Grid.Column="1" BackgroundColor="YellowGreen" />
-        <Label Text="Comp.5203 Professional Practice" Grid.Row="2" Grid.Column="0" BackgroundColor="YellowGreen" />
-        <Label Text="Comp.5204 Enterprise" Grid.Row="2" Grid.Column="1" BackgroundColor="YellowGreen"/>
-        <!--<Image Source="Assets/1.png" Grid.Row="1" Grid.Column="0" BackgroundColor="AliceBlue"/>
-    <Image Source="Assets/2.png" Grid.Row="1" Grid.Column="1" BackgroundColor="AliceBlue"/-->
-        <!--<ImageButton x:Name="back" Clicked="Back_Clicked" HorizontalOptions="End" Source="Assets/back.PNG"></ImageButton>
-        <ImageButton x:Name="next" Clicked="Next_Clicked" HorizontalOptions="End" Source="Assets/next.PNG"></ImageButton>-->
-        <ImageButton x:Name="back" Clicked="Back_Clicked" Grid.Row="3" Grid.Column="0" HorizontalOptions="End" Source="Assets/back.PNG"></ImageButton>
-        <!--<ImageButton x:Name="next" Clicked="Next_Clicked" Grid.Row="3" Grid.Column="1" HorizontalOptions="End" Source="Assets/next.PNG"></ImageButton>-->
-    </Grid>
+        <Label Text="Comp 5201 Information Technology Operations" VerticalTextAlignment="Center" Grid.Row="2" Grid.Column="0" BackgroundColor="YellowGreen"/>
+        <Label Text="Comp.5202 Fundamentals of Programming and Problem Solving" Grid.Row="2" Grid.Column="1" BackgroundColor="YellowGreen" />
+        <Label Text="Comp.5203 Professional Practice" Grid.Row="3" Grid.Column="0" BackgroundColor="YellowGreen" />
+        <Label Text="Comp.5204 Enterprise" Grid.Row="3" Grid.Column="1" BackgroundColor="YellowGreen"/>
+
+        <Label Text="Semester2"  Grid.Row="4" Grid.ColumnSpan="2" FontSize="20" VerticalTextAlignment= "Center" TextDecorations="Underline" TextColor="Black" FontFamily="ovo" BackgroundColor="GreenYellow" HorizontalTextAlignment="Center"/>
+
+        <Label Text="Comp 5209 Interface Analysis and Design" Grid.Row="5" Grid.Column="0" BackgroundColor="YellowGreen"/>
+        <Label Text="Comp.5210 Web Application Implimentation" Grid.Row="5" Grid.Column="1" BackgroundColor="YellowGreen" />
+        <Label Text="Comp.5211 Application Testing and Maintainence" Grid.Row="6" Grid.Column="0" BackgroundColor="YellowGreen" />
+        <Label Text="Comp.5212 Programming" Grid.Row="7" Grid.Column="0" BackgroundColor="YellowGreen"/>
+        <Label Text="Comp.5213 Special Topic" Grid.Row="7" Grid.Column="1" BackgroundColor="YellowGreen"/>
+        <ImageButton x:Name="back" Clicked="Back_Clicked" Grid.Row="8" VerticalOptions="Center" HorizontalOptions="Center" Source="Assets/back.PNG"></ImageButton>
+        </Grid>
 </ContentPage>

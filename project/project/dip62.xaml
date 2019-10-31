@@ -2,11 +2,42 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="project.dip62">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+    <Grid Margin="10,10,10,10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="70"/>
+            
+        </Grid.RowDefinitions>
+        <StackLayout MinimumHeightRequest="30" MinimumWidthRequest="50" Grid.Row="0" Grid.ColumnSpan="2" BackgroundColor="Black" >
+
+            <Label Text="NZ Diploma in Software Development(level 6)"  FontSize="24" TextColor="Black" FontFamily="ovo" BackgroundColor="GreenYellow" HorizontalTextAlignment="Center"/>
+
         </StackLayout>
-    </ContentPage.Content>
+
+        <Label Text="Semester1" Grid.Row="1" Grid.ColumnSpan="2"  FontSize="20" VerticalTextAlignment= "Center" TextDecorations="Underline" TextColor="Black" FontFamily="ovo" BackgroundColor="GreenYellow" HorizontalTextAlignment="Center"/>
+
+        <Label Text="Comp 6209 System Analysis and Design" VerticalTextAlignment="Center" Grid.Row="2" Grid.Column="0" BackgroundColor="YellowGreen"/>
+        <Label Text="Comp.6210 Web Serrvices and Design Methodologies" Grid.Row="2" Grid.Column="1" BackgroundColor="YellowGreen" />
+        <Label Text="Comp.6211 Algorithm and Data Structure" Grid.Row="3" Grid.Column="0" BackgroundColor="YellowGreen" />
+        <Label Text="Comp.6212 Data Management " Grid.Row="3" Grid.Column="1" BackgroundColor="YellowGreen"/>
+       
+        <Label Text="Semester2"  Grid.Row="4" Grid.ColumnSpan="2" FontSize="20" VerticalTextAlignment= "Center" TextDecorations="Underline" TextColor="Black" FontFamily="ovo" BackgroundColor="GreenYellow" HorizontalTextAlignment="Center"/>
+
+        <Label Text="Comp 6213 Project Management " Grid.Row="5" Grid.Column="0" BackgroundColor="YellowGreen"/>
+        <Label Text="Comp.6214 Project2" Grid.Row="5" Grid.Column="1" BackgroundColor="YellowGreen" />
+        <Label Text="Comp.6215 Graphical User Interface Programming" Grid.Row="6" Grid.Column="0" BackgroundColor="YellowGreen" />
+        <Label Text="Comp.6207 Special Topic" Grid.Row="6" Grid.Column="1" BackgroundColor="YellowGreen"/>
+        <ImageButton x:Name="back" Clicked="Back_Clicked" Grid.Row="7" VerticalOptions="Center" HorizontalOptions="Center" Source="Assets/back.PNG"></ImageButton>
+    </Grid>
 </ContentPage>

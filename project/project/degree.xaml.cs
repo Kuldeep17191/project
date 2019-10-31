@@ -16,14 +16,14 @@ namespace project
 		{
 			InitializeComponent ();
 		}
-        private async void Back_Clicked(object sender, EventArgs e)
-        {
-            await Navigation.PopAsync();
-        }
+        //private async void Back_Clicked(object sender, EventArgs e)
+        //{
+        //    await Navigation.PopAsync();
+        //}
 
         private async void Next_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new MainPage());
+            await Navigation.PushAsync(new deglevel5());
         }
 
     }
