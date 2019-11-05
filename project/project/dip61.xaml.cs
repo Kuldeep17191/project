@@ -20,6 +20,11 @@ namespace project
         {
             await Navigation.PopAsync();
         }
+        private async void Dip612_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new dip612());
+        }
+
 
     }
 }

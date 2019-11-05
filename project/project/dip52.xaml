@@ -4,38 +4,35 @@
              x:Class="project.dip52">
        
     <Grid Margin="10,10,10,10">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="*" />
-            </Grid.ColumnDefinitions>
-            <Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="20"/>
             <RowDefinition Height="50"/>
             <RowDefinition Height="50"/>
-            <RowDefinition Height="70"/>
-            <RowDefinition Height="70"/>
+            <RowDefinition Height="30"/>
             <RowDefinition Height="50"/>
-            <RowDefinition Height="70"/>
-            <RowDefinition Height="70"/>
-            <RowDefinition Height="70"/>
         </Grid.RowDefinitions>
-            <StackLayout MinimumHeightRequest="30" MinimumWidthRequest="50" Grid.Row="0" Grid.ColumnSpan="2" BackgroundColor="WhiteSmoke">
 
-            <Label Text="NZ Diploma in IT Technical Support(level 5)"  FontSize="24" TextColor="Black" FontFamily="ovo" BackgroundColor="GreenYellow" HorizontalTextAlignment="Center"/>
+        <StackLayout MinimumHeightRequest="30" MinimumWidthRequest="50" Grid.Row="0" Grid.ColumnSpan="2" BackgroundColor="WhiteSmoke">
+
+            <Label Text="NZ Diploma in IT Technical Support(level 5)"  FontSize="14" TextColor="Black" FontFamily="ovo" BackgroundColor="LightBlue" HorizontalTextAlignment="Center"/>
             </StackLayout>
 
-        <Label Text="Semester1" Grid.Row="1" Grid.ColumnSpan="2"  FontSize="20" VerticalTextAlignment= "Center" TextDecorations="Underline" TextColor="Black" FontFamily="ovo" BackgroundColor="GreenYellow" HorizontalTextAlignment="Center"/>
+        <Label Text="Semester1" Grid.Row="1" Grid.ColumnSpan="2"  FontSize="11" VerticalTextAlignment= "Center" TextDecorations="Underline" TextColor="Black" FontFamily="ovo" BackgroundColor="LightBlue" HorizontalTextAlignment="Center"/>
 
-        <Label Text="Comp 5201 Information Technology Operations" VerticalTextAlignment="Center" Grid.Row="2" Grid.Column="0" BackgroundColor="YellowGreen"/>
-        <Label Text="Comp.5202 Fundamentals of Programming and Problem Solving" Grid.Row="2" Grid.Column="1" BackgroundColor="YellowGreen" />
-        <Label Text="Comp.5203 Professional Practice" Grid.Row="3" Grid.Column="0" BackgroundColor="YellowGreen" />
-        <Label Text="Comp.5204 Enterprise" Grid.Row="3" Grid.Column="1" BackgroundColor="YellowGreen"/>
+        <Label Text="Comp 5201 Information Technology Operations" VerticalTextAlignment="Center" Grid.Row="2" Grid.Column="0" BackgroundColor="LightBlue"/>
+        <Label Text="Comp.5202 Fundamentals of Programming and Problem Solving" Grid.Row="2" Grid.Column="1" FontSize="11" BackgroundColor="LightBlue" VerticalTextAlignment="Center" />
+        <Label Text="Comp.5203 Professional Practice" Grid.Row="3" Grid.Column="0" FontSize="11" BackgroundColor="LightBlue" VerticalTextAlignment="Center" />
+        <Label Text="Comp.5204 Enterprise" Grid.Row="3" Grid.Column="1"  FontSize="11" BackgroundColor="LightBlue" VerticalTextAlignment="Center"/>
 
-        <Label Text="Semester2"  Grid.Row="4" Grid.ColumnSpan="2" FontSize="20" VerticalTextAlignment= "Center" TextDecorations="Underline" TextColor="Black" FontFamily="ovo" BackgroundColor="GreenYellow" HorizontalTextAlignment="Center"/>
+        <Button Text="Semester2" x:Name="Dip522" Clicked="Dip522_Clicked" Grid.ColumnSpan="2" Grid.Row="4" FontSize="11" WidthRequest="200" BackgroundColor="LightBlue"/>
 
-        <Label Text="Comp 5205 Database Administration" Grid.Row="5" Grid.Column="0" BackgroundColor="YellowGreen"/>
-        <Label Text="Comp.5206 Introduction to Networks" Grid.Row="5" Grid.Column="1" BackgroundColor="YellowGreen" />
-        <Label Text="Comp.5207 Operating Systems" Grid.Row="6" Grid.Column="0" BackgroundColor="YellowGreen" />
-        <Label Text="Comp.5208 Technical Support" Grid.Row="6" Grid.Column="1" BackgroundColor="YellowGreen"/>
-        <ImageButton x:Name="back" Clicked="Back_Clicked" Grid.Row="7" VerticalOptions="Center" HorizontalOptions="Center" Source="Assets/back.PNG"></ImageButton>
+        <ImageButton x:Name="back" Clicked="Back_Clicked" Grid.Row="5" VerticalOptions="Center" HorizontalOptions="Center" Source="Assets/back.PNG"></ImageButton>
+        <Button Text="Requirements" Margin="3,0,2,2" TextColor="Black" Grid.Column="1" Grid.Row="5" BorderColor="Black" MinimumWidthRequest="30" HorizontalOptions="End" FontSize="11" BackgroundColor="White" />
+
     </Grid>
 </ContentPage>

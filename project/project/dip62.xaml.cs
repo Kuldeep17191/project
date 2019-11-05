@@ -9,17 +9,20 @@ using Xamarin.Forms.Xaml;
 
 namespace project
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class dip62 : ContentPage
-	{
-		public dip62 ()
-		{
-			InitializeComponent ();
-		}
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class dip62 : ContentPage
+    {
+        public dip62()
+        {
+            InitializeComponent();
+        }
         private async void Back_Clicked(object sender, EventArgs e)
         {
             await Navigation.PopAsync();
         }
-
+        private async void Dip622_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new dip622());
+        }
     }
 }

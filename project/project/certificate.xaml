@@ -11,9 +11,9 @@
             </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
                 <RowDefinition Height="50"/>
-                <RowDefinition Height="80"/>
-                <RowDefinition Height="80"/>
-            <RowDefinition Height="80"/>
+                <RowDefinition Height="55"/>
+                <RowDefinition Height="55"/>
+            <RowDefinition Height="50"/>
         </Grid.RowDefinitions>
 
         <StackLayout MinimumHeightRequest="50" MinimumWidthRequest="50"   Grid.Row="0" Grid.ColumnSpan="2"   BackgroundColor="WhiteSmoke">
@@ -21,13 +21,15 @@
             <Label Text="NZ Certificate in IT (Level 5)" Grid.Column="0" VerticalTextAlignment="Center" HeightRequest="50"  FontSize="14" TextColor="Black" FontFamily="ovo" BackgroundColor="LightBlue" HorizontalTextAlignment="Center"/>
 
         </StackLayout>
-        <Label Text="Comp 5201 Information Technology Operations" Margin="5,0,5,0" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="14" Grid.Row="1" Grid.Column="0" BackgroundColor="LightBlue"/>
-        <Label Text="Comp.5202 Fundamentals of Programming and Problem Solving" Margin="5,0,5,0" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="14" Grid.Row="1" Grid.Column="1" BackgroundColor="LightBlue" />
-        <Label Text="Comp.5203 Professional Practice" FontSize="14" Margin="5,0,5,0" VerticalTextAlignment="Center" Grid.Row="2" Grid.Column="0" HorizontalTextAlignment="Center" BackgroundColor="LightBlue" />
-        <Label Text="Comp.5204 Enterprise" FontSize="14" Margin="5,0,5,0" Grid.Row="2" Grid.Column="1" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" BackgroundColor="LightBlue"/>
+        <Label Text="Comp 5201 Information Technology Operations" Margin="3,0,2,0" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="10" Grid.Row="1" Grid.Column="0" BackgroundColor="LightBlue"/>
+        <Label Text="Comp.5202 Fundamentals of Programming and Problem Solving" Margin="3,0,2,0" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="10" Grid.Row="1" Grid.Column="1" BackgroundColor="LightBlue" />
+        <Label Text="Comp.5203 Professional Practice" FontSize="10" Margin="3,0,2,0" VerticalTextAlignment="Center" Grid.Row="2" Grid.Column="0" HorizontalTextAlignment="Center" BackgroundColor="LightBlue" />
+        <Label Text="Comp.5204 Enterprise" FontSize="10" Margin="3,0,2,0" Grid.Row="2" Grid.Column="1" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" BackgroundColor="LightBlue"/>
 
-        <ImageButton x:Name="back" Clicked="Back_Clicked" Grid.Row="3" Grid.Column="0" HorizontalOptions="Start" Source="Resources/drawable/back.PNG"></ImageButton>
+        <ImageButton x:Name="back" Margin="3,0,2,2" Clicked="Back_Clicked" Grid.Row="3" Grid.Column="0" BorderColor="Black" HorizontalOptions="Start" Source="Resources/drawable/back.PNG"></ImageButton>
         <!--<ImageButton x:Name="next" Clicked="Next_Clicked" Grid.Row="3" Grid.Column="1" HorizontalOptions="End" Source="Assets/next.PNG"></ImageButton>-->
-        <Button Text="Requirements" Margin="5,0,5,0" TextColor="Red" Grid.Column="1" Grid.Row="3" HorizontalOptions="End" BackgroundColor="LightBlue" />
+        <Button Text="Requirements" Margin="3,0,2,2" TextColor="Black" Grid.Column="1" Grid.Row="3" BorderColor="Black" MinimumWidthRequest="30" HorizontalOptions="End" FontSize="12" BackgroundColor="White" />
     </Grid>
 </ContentPage>
+
+     

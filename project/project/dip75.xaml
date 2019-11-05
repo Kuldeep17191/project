@@ -21,22 +21,22 @@
         </Grid.RowDefinitions>
         <StackLayout MinimumHeightRequest="30" MinimumWidthRequest="50" Grid.Row="0" Grid.ColumnSpan="2" BackgroundColor="Black" >
 
-            <Label Text="Graduate Diploma of Applied IT(level 7)"  FontSize="24" TextColor="Black" FontFamily="ovo" BackgroundColor="GreenYellow" HorizontalTextAlignment="Center"/>
+            <Label Text="Graduate Diploma of Applied IT(level 7)"  FontSize="24" TextColor="Black" FontFamily="ovo" BackgroundColor="LightBlue" HorizontalTextAlignment="Center"/>
 
         </StackLayout>
 
-        <Label Text="Semester1" Grid.Row="1" Grid.ColumnSpan="2"  FontSize="20" VerticalTextAlignment= "Center" TextDecorations="Underline" TextColor="Black" FontFamily="ovo" BackgroundColor="GreenYellow" HorizontalTextAlignment="Center"/>
+        <Label Text="Semester1" Grid.Row="1" Grid.ColumnSpan="2"  FontSize="20" VerticalTextAlignment= "Center" TextDecorations="Underline" TextColor="Black" FontFamily="ovo" BackgroundColor="LightBlue" HorizontalTextAlignment="Center"/>
 
-        <Button Text="Level 6 Elective" x:Name="level61elective" Clicked="level61elective_Clicked"  Grid.Row="2" Grid.Column="0" BackgroundColor="YellowGreen"/>
-        <Button Text="Level 6 Elective" x:Name="level62elective" Clicked="level62elective_Clicked" Grid.Row="2" Grid.Column="1" BackgroundColor="YellowGreen" />
-        <Button Text="Level 6 Elective" x:Name="level63elective" Clicked="level63elective_Clicked" Grid.Row="3" Grid.Column="0" BackgroundColor="YellowGreen" />
-        <Button Text="Level 7 Elective" x:Name="level71elective" Clicked="level71elective_Clicked" Grid.Row="3" Grid.Column="1" BackgroundColor="YellowGreen"/>
+        <Button Text="Level 6 Elective" x:Name="level61elective" Clicked="level61elective_Clicked"  Grid.Row="2" Grid.Column="0" BackgroundColor="LightBlue"/>
+        <Button Text="Level 6 Elective" x:Name="level62elective" Clicked="level62elective_Clicked" Grid.Row="2" Grid.Column="1" BackgroundColor="LightBlue" />
+        <Button Text="Level 6 Elective" x:Name="level63elective" Clicked="level63elective_Clicked" Grid.Row="3" Grid.Column="0" BackgroundColor="LightBlue" />
+        <Button Text="Level 7 Elective" x:Name="level71elective" Clicked="level71elective_Clicked" Grid.Row="3" Grid.Column="1" BackgroundColor="LightBlue"/>
 
-        <Label Text="Semester2"  Grid.Row="4" Grid.ColumnSpan="2" FontSize="20" VerticalTextAlignment= "Center" TextDecorations="Underline" TextColor="Black" FontFamily="ovo" BackgroundColor="GreenYellow" HorizontalTextAlignment="Center"/>
+        <Label Text="Semester2"  Grid.Row="4" Grid.ColumnSpan="2" FontSize="20" VerticalTextAlignment= "Center" TextDecorations="Underline" TextColor="Black" FontFamily="ovo" BackgroundColor="LightBlue" HorizontalTextAlignment="Center"/>
 
-        <Button Text="Level 7 Elective" x:Name="level72elective" Clicked="level72elective_Clicked" Grid.Row="5" Grid.Column="0" BackgroundColor="YellowGreen"/>
-        <Button Text="Level 7 Elective" x:Name="level73elective" Clicked="level73elective_Clicked" Grid.Row="5" Grid.Column="1" BackgroundColor="YellowGreen" />
-        <Button Text="GENR.7101 Project" x:Name="level74elective" Clicked="level74elective_Clicked" Grid.Row="6" Grid.Column="0" BackgroundColor="YellowGreen" />
+        <Button Text="Level 7 Elective" x:Name="level72elective" Clicked="level72elective_Clicked" Grid.Row="5" Grid.Column="0" BackgroundColor="LightBlue"/>
+        <Button Text="Level 7 Elective" x:Name="level73elective" Clicked="level73elective_Clicked" Grid.Row="5" Grid.Column="1" BackgroundColor="LightBlue" />
+        <Button Text="GENR.7101 Project" x:Name="level74elective" Clicked="level74elective_Clicked" Grid.Row="6" Grid.Column="0" BackgroundColor="LightBlue" />
         <ImageButton x:Name="back" Clicked="Back_Clicked" Grid.Row="7" VerticalOptions="Center" HorizontalOptions="Center" Source="Assets/back.PNG"></ImageButton>
     </Grid>
 </ContentPage>

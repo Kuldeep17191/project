@@ -18,15 +18,15 @@
         </Grid.RowDefinitions>
         <StackLayout MinimumHeightRequest="30" MinimumWidthRequest="50" Grid.Row="0" Grid.ColumnSpan="2" BackgroundColor="WhiteSmoke">
 
-            <Label Text="Degree"  FontSize="24" TextColor="Black" FontFamily="ovo" BackgroundColor="YellowGreen" HorizontalTextAlignment="Center"/>
+            <Label Text="Degree"  FontSize="24" TextColor="Black" FontFamily="ovo" BackgroundColor="LightBlue" HorizontalTextAlignment="Center"/>
         </StackLayout>
 
 
-        <Label Text="level 5"   Grid.Row="1" Grid.ColumnSpan="2"  HorizontalTextAlignment="Center" BackgroundColor="YellowGreen"/>
+        <Label Text="level 5"   Grid.Row="1" Grid.ColumnSpan="2"  HorizontalTextAlignment="Center" BackgroundColor="LightBlue"/>
         <Label Text="+"   Grid.Row="2" Grid.ColumnSpan="2" HorizontalTextAlignment="Center" BackgroundColor="White"/>
-        <Label Text="level 6"   Grid.Row="3"  Grid.ColumnSpan="2" HorizontalTextAlignment="Center" BackgroundColor="YellowGreen" />
+        <Label Text="level 6"   Grid.Row="3"  Grid.ColumnSpan="2" HorizontalTextAlignment="Center" BackgroundColor="LightBlue" />
         <Label Text="+"   Grid.Row="4" Grid.ColumnSpan="2" HorizontalTextAlignment="Center" BackgroundColor="White"/>
-        <Label Text="level 7"  Grid.Row="5"  Grid.ColumnSpan="2" HorizontalTextAlignment="Center" BackgroundColor="YellowGreen" />
+        <Label Text="level 7"  Grid.Row="5"  Grid.ColumnSpan="2" HorizontalTextAlignment="Center" BackgroundColor="LightBlue" />
         <ImageButton x:Name="next" Clicked="Next_Clicked" Grid.Row="6" Grid.Column="2" HorizontalOptions="Center" Source="Assets/next.PNG"></ImageButton>
     </Grid>
 </ContentPage>

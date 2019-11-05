@@ -3,25 +3,24 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 namespace project
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class dip51 : ContentPage
+	public partial class dip622 : ContentPage
 	{
-		public dip51 ()
+		public dip622 ()
 		{
 			InitializeComponent ();
-		}
+        }
         private async void Back_Clicked(object sender, EventArgs e)
         {
             await Navigation.PopAsync();
         }
-        private async void Dip512_Clicked_1(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new dip512());
-        }
+
+       
     }
 }
