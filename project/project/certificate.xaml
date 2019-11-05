@@ -5,31 +5,51 @@
 
 
     <Grid >
-        <Grid.ColumnDefinitions>
+        <!--<Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="*" />
-            </Grid.ColumnDefinitions>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="50"/>
-                <RowDefinition Height="55"/>
-                <RowDefinition Height="55"/>
+            </Grid.ColumnDefinitions>-->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="90"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="70"/>
             <RowDefinition Height="50"/>
+            <!--<RowDefinition Height="20"/>
+            <RowDefinition Height="20"/>-->
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="55"/>
         </Grid.RowDefinitions>
 
-        <StackLayout MinimumHeightRequest="50" MinimumWidthRequest="50"   Grid.Row="0" Grid.ColumnSpan="2"   BackgroundColor="WhiteSmoke">
+        <StackLayout MinimumHeightRequest="70" MinimumWidthRequest="70"   Grid.Row="0"  BackgroundColor="WhiteSmoke">
 
-            <Label Text="NZ Certificate in IT (Level 5)" Grid.Column="0" VerticalTextAlignment="Center" HeightRequest="50"  FontSize="14" TextColor="Black" FontFamily="ovo" BackgroundColor="LightBlue" HorizontalTextAlignment="Center"/>
+            <Label Text="NZ Certificate in IT (Level 5)" VerticalTextAlignment="Center" HeightRequest="90" FontAttributes="Bold" FontSize="25" TextColor="White"  FontFamily="ovo" BackgroundColor="#0080ff" HorizontalTextAlignment="Center"/>
 
         </StackLayout>
-        <Label Text="Comp 5201 Information Technology Operations" Margin="3,0,2,0" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="10" Grid.Row="1" Grid.Column="0" BackgroundColor="LightBlue"/>
-        <Label Text="Comp.5202 Fundamentals of Programming and Problem Solving" Margin="3,0,2,0" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="10" Grid.Row="1" Grid.Column="1" BackgroundColor="LightBlue" />
-        <Label Text="Comp.5203 Professional Practice" FontSize="10" Margin="3,0,2,0" VerticalTextAlignment="Center" Grid.Row="2" Grid.Column="0" HorizontalTextAlignment="Center" BackgroundColor="LightBlue" />
-        <Label Text="Comp.5204 Enterprise" FontSize="10" Margin="3,0,2,0" Grid.Row="2" Grid.Column="1" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" BackgroundColor="LightBlue"/>
+        <Label Text="Comp 5201 Information Technology Operations"   MinimumWidthRequest="100" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="15" TextColor="White" FontAttributes="Bold" Grid.Row="1"  BackgroundColor="#51A2D5"/>
+        <Label Text="Comp.5202 Fundamentals of Programming and Problem Solving" Margin="3,0,2,0" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="15" TextColor="White" FontAttributes="Bold" Grid.Row="2" BackgroundColor="#51A2D5" />
+        <Label Text="Comp.5203 Professional Practice" FontSize="15" TextColor="White" Margin="3,0,2,0" VerticalTextAlignment="Center" Grid.Row="3"  HorizontalTextAlignment="Center" FontAttributes="Bold" BackgroundColor="#51A2D5" />
+        <Label Text="Comp.5204 Enterprise" FontSize="15" TextColor="White" Margin="3,0,2,0" Grid.Row="4"  VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontAttributes="Bold" BackgroundColor="#51A2D5"/>
 
-        <ImageButton x:Name="back" Margin="3,0,2,2" Clicked="Back_Clicked" Grid.Row="3" Grid.Column="0" BorderColor="Black" HorizontalOptions="Start" Source="Resources/drawable/back.PNG"></ImageButton>
+        <Label Text="Requirements" Grid.Row="5" TextColor="#0080ff" FontSize="18" VerticalTextAlignment="Center" FontAttributes="Bold"/>
+        <StackLayout Orientation="Vertical" Grid.Row="6" Margin="5,5,5,5">
+           
+            <Label Text="1.IELTS Academic score with overall 6 not less than 5.5 bands"/>
+            <Label Text="2.Secondary Education with 60% in any stream with Computer Subject"/>
+            <Label Text="3.Standard Entry Criteria- By Interview"/>
+        </StackLayout>
+        <ImageButton x:Name="back" Clicked="Back_Clicked" Grid.Row="7" Margin="5,5,5,5" BorderColor="Black" HorizontalOptions="End" Source="Resources/drawable/back.PNG"></ImageButton>
+
+
+
+
+        <!--<ImageButton x:Name="back" Margin="3,0,2,2" Clicked="Back_Clicked" Grid.Row="5"  BorderColor="Black" HorizontalOptions="Start" Source="Resources/drawable/back.PNG"></ImageButton>-->
         <!--<ImageButton x:Name="next" Clicked="Next_Clicked" Grid.Row="3" Grid.Column="1" HorizontalOptions="End" Source="Assets/next.PNG"></ImageButton>-->
-        <Button Text="Requirements" Margin="3,0,2,2" TextColor="Black" Grid.Column="1" Grid.Row="3" BorderColor="Black" MinimumWidthRequest="30" HorizontalOptions="End" FontSize="12" BackgroundColor="White" />
+        <!--<Button Text="Requirements" Margin="3,0,2,2" TextColor="Black" Grid.Column="1" Grid.Row="3" BorderColor="Black" MinimumWidthRequest="30" HorizontalOptions="End" FontSize="12" BackgroundColor="White" />-->
     </Grid>
+
+
 </ContentPage>
 
      

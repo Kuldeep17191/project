@@ -20,14 +20,14 @@
 
             <StackLayout MinimumHeightRequest="30" MinimumWidthRequest="50" Grid.Row="0" Grid.ColumnSpan="3" BackgroundColor="Black" >
 
-                <Label Text="NZ Diploma in Networking(level 6)"  FontSize="14" TextColor="Black" FontFamily="ovo" BackgroundColor="LightBlue" HorizontalTextAlignment="Center"/>
+                <Label Text="NZ Diploma in Networking(level 6)"  FontSize="14" TextColor="Black" FontFamily="ovo" BackgroundColor="#0080ff" HorizontalTextAlignment="Center"/>
             </StackLayout>
-            <Label Text="Semester2"  Grid.Row="1" Grid.ColumnSpan="3" FontSize="10" VerticalTextAlignment= "Center" TextDecorations="Underline" TextColor="Black" FontFamily="ovo" BackgroundColor="LightBlue" HorizontalTextAlignment="Center"/>
+            <Label Text="Semester2"  Grid.Row="1" Grid.ColumnSpan="3" FontSize="10" VerticalTextAlignment= "Center" TextDecorations="Underline" TextColor="Black" FontFamily="ovo" BackgroundColor="#0080ff" HorizontalTextAlignment="Center"/>
         
-            <Label Text="Comp 6202 Scalling Networks" Grid.Row="2" Grid.Column="0" FontSize="11" BackgroundColor="LightBlue" VerticalTextAlignment="Center" />
-            <Label Text="Comp.6205 Professional Practice" Grid.Row="2" Grid.Column="2" FontSize="11" BackgroundColor="LightBlue" VerticalTextAlignment="Center"  />
-            <Label Text="Comp.6206 Network Security" Grid.Row="3" Grid.Column="0" FontSize="11" BackgroundColor="LightBlue" VerticalTextAlignment="Center" />
-            <Label Text="Comp.6208 Project1" Grid.Row="3" Grid.Column="2" FontSize="11" VerticalTextAlignment="Center" BackgroundColor="LightBlue"/>
+            <Label Text="Comp 6202 Scalling Networks" Grid.Row="2" Grid.Column="0" FontSize="11" BackgroundColor="#0080ff" VerticalTextAlignment="Center" />
+            <Label Text="Comp.6205 Professional Practice" Grid.Row="2" Grid.Column="2" FontSize="11" BackgroundColor="#0080ff" VerticalTextAlignment="Center"  />
+            <Label Text="Comp.6206 Network Security" Grid.Row="3" Grid.Column="0" FontSize="11" BackgroundColor="#0080ff" VerticalTextAlignment="Center" />
+            <Label Text="Comp.6208 Project1" Grid.Row="3" Grid.Column="2" FontSize="11" VerticalTextAlignment="Center" BackgroundColor="#0080ff"/>
 
             <ImageButton x:Name="back" Clicked="Back_Clicked" Grid.Row="4" VerticalOptions="Center" HorizontalOptions="Center" Source="Assets/back.PNG"></ImageButton>
         </Grid>

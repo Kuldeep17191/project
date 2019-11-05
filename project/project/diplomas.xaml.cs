@@ -52,6 +52,10 @@ namespace project
         {
             await Navigation.PushAsync(new dip75());
         }
+        private async void home_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new MainPage());
+        }
 
     }
 }

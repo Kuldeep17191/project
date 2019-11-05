@@ -19,18 +19,18 @@
 
     <StackLayout MinimumHeightRequest="30" MinimumWidthRequest="50" Grid.Row="0" Grid.ColumnSpan="2" BackgroundColor="Black" >
 
-        <Label Text="Graduate Diploma of Networking and Technical Support (level 7)"  FontSize="14" TextColor="Black" FontFamily="ovo" BackgroundColor="LightBlue" HorizontalTextAlignment="Center"/>
+        <Label Text="Graduate Diploma of Networking and Technical Support (level 7)"  FontSize="14" TextColor="Black" FontFamily="ovo" BackgroundColor="#0080ff" HorizontalTextAlignment="Center"/>
 
     </StackLayout>
 
-    <Label Text="Semester1" Grid.Row="1" Grid.ColumnSpan="2"  FontSize="11" VerticalTextAlignment= "Center" TextDecorations="Underline" TextColor="Black" FontFamily="ovo" BackgroundColor="LightBlue" HorizontalTextAlignment="Center"/>
+    <Label Text="Semester1" Grid.Row="1" Grid.ColumnSpan="2"  FontSize="11" VerticalTextAlignment= "Center" TextDecorations="Underline" TextColor="Black" FontFamily="ovo" BackgroundColor="#0080ff" HorizontalTextAlignment="Center"/>
 
-    <Label Text="Comp 6202 Scaling Networks" VerticalTextAlignment="Center" FontSize="11" Grid.Row="2" Grid.Column="0" BackgroundColor="LightBlue"/>
-    <Label Text="Comp.6203 Network Connecting" VerticalTextAlignment="Center" FontSize="11" Grid.Row="2" Grid.Column="1" BackgroundColor="LightBlue" />
-    <Label Text="Comp.6217 Hardware Technology" VerticalTextAlignment="Center" FontSize="11" Grid.Row="3" Grid.Column="0" BackgroundColor="LightBlue" />
-    <Label Text="Comp.7202 System Security" Grid.Row="3" Grid.Column="1" VerticalTextAlignment="Center" FontSize="11" BackgroundColor="LightBlue"/>
+    <Label Text="Comp 6202 Scaling Networks" VerticalTextAlignment="Center" FontSize="11" Grid.Row="2" Grid.Column="0" BackgroundColor="#0080ff"/>
+    <Label Text="Comp.6203 Network Connecting" VerticalTextAlignment="Center" FontSize="11" Grid.Row="2" Grid.Column="1" BackgroundColor="#0080ff" />
+    <Label Text="Comp.6217 Hardware Technology" VerticalTextAlignment="Center" FontSize="11" Grid.Row="3" Grid.Column="0" BackgroundColor="#0080ff" />
+    <Label Text="Comp.7202 System Security" Grid.Row="3" Grid.Column="1" VerticalTextAlignment="Center" FontSize="11" BackgroundColor="#0080ff"/>
 
-    <Button Text="Semester2" x:Name="Dip712" Clicked="Dip712_Clicked" Grid.ColumnSpan="2" Grid.Row="4" FontSize="11" WidthRequest="200" BackgroundColor="LightBlue"/>
+    <Button Text="Semester2" x:Name="Dip712" Clicked="Dip712_Clicked" Grid.ColumnSpan="2" Grid.Row="4" FontSize="11" WidthRequest="200" BackgroundColor="#0080ff"/>
 
     <ImageButton x:Name="back" Clicked="Back_Clicked" Grid.Row="5" VerticalOptions="Center" HorizontalOptions="Center" Source="Assets/back.PNG"></ImageButton>
     <Button Text="Requirements" Margin="3,0,2,2" TextColor="Black" Grid.Column="1" Grid.Row="5" BorderColor="Black" MinimumWidthRequest="30" HorizontalOptions="End" FontSize="12" BackgroundColor="White" />

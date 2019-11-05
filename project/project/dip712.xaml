@@ -19,13 +19,13 @@
 
             <StackLayout MinimumHeightRequest="30" MinimumWidthRequest="50" Grid.Row="0" Grid.ColumnSpan="2" BackgroundColor="Black" >
 
-                <Label Text="Graduate Diploma of Networking and Technical Support (level 7)"  FontSize="14" TextColor="Black" FontFamily="ovo" BackgroundColor="LightBlue" HorizontalTextAlignment="Center"/>
+                <Label Text="Graduate Diploma of Networking and Technical Support (level 7)"  FontSize="14" TextColor="Black" FontFamily="ovo" BackgroundColor="#0080ff" HorizontalTextAlignment="Center"/>
             </StackLayout>
-            <Label Text="Semester2"  Grid.Row="1" Grid.ColumnSpan="2" FontSize="10" VerticalTextAlignment= "Center" TextDecorations="Underline" TextColor="Black" FontFamily="ovo" BackgroundColor="LightBlue" HorizontalTextAlignment="Center"/>
+            <Label Text="Semester2"  Grid.Row="1" Grid.ColumnSpan="2" FontSize="10" VerticalTextAlignment= "Center" TextDecorations="Underline" TextColor="Black" FontFamily="ovo" BackgroundColor="#0080ff" HorizontalTextAlignment="Center"/>
 
-            <Label Text="Comp 7201 Large network Technologies "  Grid.Row="2" Grid.Column="0" FontSize="11" BackgroundColor="LightBlue" VerticalTextAlignment="Center"/>
-            <Label Text="Comp 7201 Large network Technologies " Grid.Row="2"  Grid.Column="2" FontSize="11" BackgroundColor="LightBlue" VerticalTextAlignment="Center"/>
-            <Label Text="GENR.7101 Project" Grid.Row="3" Grid.Column="0" FontSize="11" BackgroundColor="LightBlue" VerticalTextAlignment="Center"/>
+            <Label Text="Comp 7201 Large network Technologies "  Grid.Row="2" Grid.Column="0" FontSize="11" BackgroundColor="#0080ff" VerticalTextAlignment="Center"/>
+            <Label Text="Comp 7201 Large network Technologies " Grid.Row="2"  Grid.Column="2" FontSize="11" BackgroundColor="#0080ff" VerticalTextAlignment="Center"/>
+            <Label Text="GENR.7101 Project" Grid.Row="3" Grid.Column="0" FontSize="11" BackgroundColor="#0080ff" VerticalTextAlignment="Center"/>
 
            
             <ImageButton x:Name="back" Clicked="Back_Clicked" Grid.Row="4" VerticalOptions="Center" HorizontalOptions="Center" Source="Assets/back.PNG"></ImageButton>

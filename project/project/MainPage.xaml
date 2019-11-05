@@ -7,31 +7,28 @@
 
     <Grid >
         <Grid.RowDefinitions>
-            <RowDefinition Height="150"/>
-            <RowDefinition Height="50"/>
+            <RowDefinition Height="300"/>
+            <RowDefinition Height="70"/>
             <RowDefinition Height="150"/>
         </Grid.RowDefinitions>
 
-        <StackLayout MinimumHeightRequest="150" MinimumWidthRequest="150" Grid.Row="0" BackgroundColor="LightBlue">
-            <Image Source="Assets/main.jpg"  WidthRequest="150"  HeightRequest="150"/>
+        <StackLayout MinimumHeightRequest="150" MinimumWidthRequest="150" Grid.Row="0" BackgroundColor="#0080ff">
+            <Image Source="Assets/main.jpg"  WidthRequest="300"  HeightRequest="300" Aspect="AspectFill"/>
         </StackLayout>
+        <!--<Image Source="Assets/main.jpg"  WidthRequest="300" Grid.Row="0" HeightRequest="300"/>-->
 
-        <Button Text="Certificate" Margin="3,3,3,3" Grid.Row="1" Grid.Column="0" FontSize="8"  WidthRequest="80" TextColor="Black" HorizontalOptions="Start" FontFamily="ovo" BackgroundColor="LightBlue" x:Name="Certificate" Clicked="Certificate_Clicked"/>
-        <Button Text="Diploma" Margin="3,3,3,3" FontSize="8" WidthRequest="80" Grid.Row="1" Grid.Column="0" TextColor="Black" FontFamily="ovo" HorizontalOptions="Center" BackgroundColor="LightBlue" x:Name="diploma" Clicked="diploma_Clicked"/>
-        <Button Text="Degree" Margin="3,3,3,3" FontSize="8" WidthRequest="80" Grid.Row="1" Grid.Column="0" TextColor="Black" FontFamily="ovo" HorizontalOptions="End" BackgroundColor="LightBlue"  x:Name="degree" Clicked="degree_Clicked"/>
+        <Button Text="Certificate" Margin="3,3,3,3" FontAttributes="Bold" Grid.Row="1" Grid.Column="0" FontSize="15"  WidthRequest="120" TextColor="White" HorizontalOptions="Start" FontFamily="ovo" BackgroundColor="#0080ff" x:Name="Certificate" Clicked="Certificate_Clicked"/>
+        <Button Text="Diploma" Margin="3,3,3,3" FontAttributes="Bold" FontSize="15" WidthRequest="120" Grid.Row="1" Grid.Column="0" TextColor="White" FontFamily="ovo" HorizontalOptions="Center" BackgroundColor="#0080ff" x:Name="diploma" Clicked="diploma_Clicked"/>
+        <Button Text="Degree" Margin="3,3,3,3" FontAttributes="Bold" FontSize="15" WidthRequest="120" Grid.Row="1" Grid.Column="0" TextColor="White" FontFamily="ovo" HorizontalOptions="End" BackgroundColor="#0080ff"  x:Name="degree" Clicked="degree_Clicked"/>
         <!--</StackLayout>-->
         <StackLayout Spacing="0" MinimumHeightRequest="50" MinimumWidthRequest="50" Grid.Row="2" BackgroundColor="White">
 
-            <Label Text="Our Partnerships" TextColor="Black"  HorizontalTextAlignment="Center" FontSize="18"  />
+            <Label Text="Toi-Ohomai Campus" TextColor="Black"  HorizontalTextAlignment="Center" FontSize="22"  />
 
 
 
-          <Label Text="  Toi Ohomai aims to create purposeful connections throughout our region, forming constellations of excellence, knowledge, people, partnerships and innovation united in the exchange of knowledge.
-
-Embracing the value of whanaungatanga, connecting with others, we actively seek relationships with industry, other tertiary providers, community groups, iwi and hapu, and of course, with our students and staff.
-
-These partnerships take many forms, from partnering with local iwi to provide targeted education opportunities in remote parts of our region, to other institutions to delivery education pathways for higher learning, and in many parts of the world to bring international students to New Zealand."   
-                   FontSize="8" Margin="3,3,3,0" />
+            <Label Text="  Toi Ohomai is a network of purposeful connections with our community and industry – together we are forming constellations of excellence, knowledge, people, partnerships and innovation throughout the region, united in the exchange of knowledge. We are all here to be awakened and inspired by learning and to ensure our people, communities and region continue to prosper and flourish.
+We are one of the largest tertiary providers in the Bay of Plenty. Our five main campuses can be found throughout the beautiful Bay of Plenty and South Waikato in Rotorua, Taupō, Tauranga, Tokoroa and Whakatāne." FontSize="17" Margin="3,3,3,0" />
         </StackLayout>
     </Grid>
 </ContentPage>
