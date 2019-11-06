@@ -22,7 +22,7 @@ namespace project
         }
         private async void dip52_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new dip52());
+            await Navigation.PushAsync(new dip51());
         }
         private async void dip61_Clicked(object sender, EventArgs e)
         {

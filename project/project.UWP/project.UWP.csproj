@@ -137,6 +137,12 @@
     <Content Include="Assets\Wide310x150Logo.scale-100.png" />
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
     <Content Include="Assets\Wide310x150Logo.scale-400.png" />
+    <AndroidResource Include="back.png" />
+    <AndroidResource Include="hm.png" />
+    <AndroidResource Include="main.jpg">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+      <SubType>Designer</SubType>
+    </AndroidResource>
     <Content Include="Properties\Default.rd.xml" />
   </ItemGroup>
   <ItemGroup>
