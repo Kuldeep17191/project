@@ -5,10 +5,10 @@
    
         <!--<ScrollView  Orientation = "Vertical" VerticalOptions="StartAndExpand">-->
     <Grid >
-        <Grid.RowDefinitions Margin="20,10,20,10">
+        <Grid.RowDefinitions >
             <RowDefinition Height="50"/>
-            <RowDefinition Height="55"/>
-            <RowDefinition Height="55"/>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="70"/>
             <RowDefinition Height="55"/>
             <RowDefinition Height="55"/>
             <RowDefinition Height="55"/>
@@ -19,20 +19,27 @@
             <RowDefinition Height="55"/>
         </Grid.RowDefinitions>
         <!--<StackLayout MinimumHeightRequest="50" MinimumWidthRequest="50" Grid.Row="0" >-->
-        <Label Text="Diploma"  FontSize="24" TextColor="White" FontAttributes="Bold" Grid.Row="0" FontFamily="ovo" BackgroundColor="#0080ff" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+        <Label Text="DIPLOMA"  FontSize="24" TextColor="Black" FontAttributes="Bold" Grid.Row="0" FontFamily="ovo" BackgroundColor="#ffd11a" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
         <!--</StackLayout>-->
-        
-            <Button Text="NZ Diploma in Web Development and design(level 5)" x:Name="dip51" Clicked="dip51_Clicked"  FontSize="15" Grid.Row="1" TextColor="white" BackgroundColor="#51A2D5"/>
-        <Button Text="NZ Diploma in IT Technical Support(level 5)" x:Name="dip52" Clicked="dip52_Clicked" Grid.Row="2" FontSize="15" TextColor="white" BackgroundColor="#51A2D5"/>
-        <Button Text="NZ Diploma in Networking(level 6)" x:Name="dip61" Clicked="dip61_Clicked" Grid.Row="3" FontSize="15" TextColor="white" BackgroundColor="#51A2D5"/>
-        <Button Text="NZ Diploma in Software Development(level 6)" x:Name="dip62" Clicked="dip62_Clicked" Grid.Row="4" FontSize="15" TextColor="white" BackgroundColor="#51A2D5" />
-        <Button Text="Graduate Diploma of Networking and Technical Support (level 7)" x:Name="dip71" Clicked="dip71_Clicked" Grid.Row="5" FontSize="15" TextColor="white" BackgroundColor="#51A2D5" />
-        <Button Text="Graduate Diploma of Cyber Security(level 7)" x:Name="dip72" Clicked="dip72_Clicked" Grid.Row="6" FontSize="15" TextColor="white" BackgroundColor="#51A2D5" />
-        <Button Text="Graduate Diploma of Software Development(level 7)" x:Name="dip73" Clicked="dip73_Clicked" Grid.Row="7" FontSize="15" TextColor="white" BackgroundColor="#51A2D5" />
-        <Button Text="Graduate Diploma of Web Design and Development(level 7)" x:Name="dip74" Clicked="dip74_Clicked" Grid.Row="8" FontSize="15" TextColor="white" BackgroundColor="#51A2D5" />
-        <Button Text="Graduate Diploma of Applied IT(level 7)" x:Name="dip75" Clicked="dip75_Clicked" Grid.Row="9" FontSize="15" TextColor="white" BackgroundColor="#51A2D5" />
-
-        
+        <!--<ScrollView>
+            <StackLayout>-->
+                <Frame
+            CornerRadius="25" Padding="10" BackgroundColor="Black" Margin="2,2,2,2" Grid.Row="1" >
+                    <Button Text="NZ Diploma in Web Development and Design            (level 5)" CornerRadius="40" x:Name="dip51" Clicked="dip51_Clicked" FontAttributes="Bold" FontSize="13"  TextColor="Black" BackgroundColor="#ffd11a"/>
+                </Frame>
+                <Frame
+            CornerRadius="25" Padding="10" BackgroundColor="#ffd11a" Margin="2,2,2,2" Grid.Row="2" >
+                    <Button Text="NZ Diploma in IT Technical Support (level 5)" x:Name="dip52" Clicked="dip52_Clicked" Grid.Row="2" FontAttributes="Bold" FontSize="13" TextColor="Black" BackgroundColor="#ffd11a"/>
+                </Frame>
+                <Button Text="NZ Diploma in Networking(level 6)" x:Name="dip61" Clicked="dip61_Clicked" Grid.Row="3" FontSize="15" TextColor="white" BackgroundColor="#51A2D5"/>
+                <Button Text="NZ Diploma in Software Development(level 6)" x:Name="dip62" Clicked="dip62_Clicked" Grid.Row="4" FontSize="15" TextColor="white" BackgroundColor="#51A2D5" />
+                <Button Text="Graduate Diploma of Networking and Technical Support (level 7)" x:Name="dip71" Clicked="dip71_Clicked" Grid.Row="5" FontSize="15" TextColor="white" BackgroundColor="#51A2D5" />
+                <Button Text="Graduate Diploma of Cyber Security(level 7)" x:Name="dip72" Clicked="dip72_Clicked" Grid.Row="6" FontSize="15" TextColor="white" BackgroundColor="#51A2D5" />
+                <Button Text="Graduate Diploma of Software Development(level 7)" x:Name="dip73" Clicked="dip73_Clicked" Grid.Row="7" FontSize="15" TextColor="white" BackgroundColor="#51A2D5" />
+                <Button Text="Graduate Diploma of Web Design and Development(level 7)" x:Name="dip74" Clicked="dip74_Clicked" Grid.Row="8" FontSize="15" TextColor="white" BackgroundColor="#51A2D5" />
+                <Button Text="Graduate Diploma of Applied IT(level 7)" x:Name="dip75" Clicked="dip75_Clicked" Grid.Row="9" FontSize="15" TextColor="white" BackgroundColor="#51A2D5" />
+            <!--</StackLayout>
+        </ScrollView>-->
         <!--</ScrollView>-->
     <ImageButton x:Name="home" Clicked="home_Clicked" Grid.Row="10" Margin="5,5,15,5" BorderColor="Black" HorizontalOptions="End" Source="Resources/drawable/hm.PNG"></ImageButton>
     </Grid>
