@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using System.Diagnostics;
 
 namespace project
 {
@@ -20,6 +21,11 @@ namespace project
         {
             await Navigation.PopAsync();
         }
+        //private async void sub1_Clicked(object sender, EventArgs e)
+        //{
+        //    label1.TextColor = Color.Blue;
+        //}
+
 
     }
 }

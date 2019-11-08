@@ -10,15 +10,21 @@ using Xamarin.Forms.Xaml;
 namespace project
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class dip712 : ContentPage
+	public partial class dip52 : ContentPage
 	{
-		public dip712 ()
+		public dip52 ()
 		{
 			InitializeComponent ();
-        }
+		}
         private async void Back_Clicked(object sender, EventArgs e)
         {
             await Navigation.PopAsync();
         }
+        private async void requirement_Clicked(object sender, EventArgs e)
+        {
+            await DisplayAlert("Reqirements", "1.IELTS Academic score with overall 5.5 not less than 5 bands.\n 2.Secondary Education with 60% in any stream with Computer Subject.\n3.Standard Entry Criteria- By Interview.", "ok");
+        }
+
+
     }
 }

@@ -10,32 +10,35 @@
 
         <Grid.RowDefinitions>
             <RowDefinition Height="50"/>
-            <RowDefinition Height="50"/>
-            <RowDefinition Height="50"/>
-            <RowDefinition Height="50"/>
-            <RowDefinition Height="50"/>
-            <RowDefinition Height="50"/>
-            <RowDefinition Height="50"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="70"/>
 
 
         </Grid.RowDefinitions>
-        <!--<checkbox>
-            
-        </checkbox>
-        <CheckBox Text="Se--><!--mester3(Level 6)" Grid.Row="0" Grid.ColumnSpan="2"  FontSize="20" VerticalTextAlignment= "Center" TextDecorations="Underline" TextColor="Black" FontFamily="ovo" BackgroundColor="#0080ff" HorizontalTextAlignment="Center"/>-->
+
+        <Label Text="Semester4(Level 6)"  Grid.Row="0" Grid.ColumnSpan="2" FontSize="20" TextColor="white" VerticalTextAlignment= "Center" FontFamily="ovo" BackgroundColor="#0080ff" HorizontalTextAlignment="Center"/>
+   
+       
+        <!--<CheckBox Text="Se--><!--mester3(Level 6)" Grid.Row="0" Grid.ColumnSpan="2"  FontSize="20" VerticalTextAlignment= "Center" TextDecorations="Underline" TextColor="Black" FontFamily="ovo" BackgroundColor="#51A2D5" HorizontalTextAlignment="Center"/>-->
         <Switch  IsToggled="True" IsEnabled="True" Grid.Column="0" Grid.Row="1"/>
-        <!--<Button Text="Level 6 Elective " x:Name="deg61" Clicked="deg61_Clicked" Grid.Row="1" Grid.Column="0" BackgroundColor="#0080ff"/>-->
-        <Button Text="Level 6 Elective" x:Name="deg62" Clicked="deg62_Clicked" Grid.Row="1" Grid.Column="1" BackgroundColor="#0080ff" />
-        <Button Text="Level 6 Elective" x:Name="deg63" Clicked="deg63_Clicked" Grid.Row="2" Grid.Column="0" BackgroundColor="#0080ff" />
-        <Button Text="Level 6 Elective" x:Name="deg64" Clicked="deg64_Clicked" Grid.Row="2" Grid.Column="1" BackgroundColor="#0080ff" />
+        <!--<Button Text="Level 6 Elective " x:Name="deg61" Clicked="deg61_Clicked" Grid.Row="1" Grid.Column="0" BackgroundColor="#51A2D5"/>-->
+        <Button Text="Level 6 Elective" x:Name="deg62" Clicked="deg62_Clicked" Grid.Row="1" Grid.Column="1" TextColor="white" BackgroundColor="#51A2D5" />
+        <Button Text="Level 6 Elective" x:Name="deg63" Clicked="deg63_Clicked" Grid.Row="2" Grid.Column="0" TextColor="white" BackgroundColor="#51A2D5" />
+        <Button Text="Level 6 Elective" x:Name="deg64" Clicked="deg64_Clicked" Grid.Row="2" Grid.Column="1" TextColor="white" BackgroundColor="#51A2D5" />
 
-        <Label Text="Semester4(Level 6)"  Grid.Row="3" Grid.ColumnSpan="2" FontSize="20" VerticalTextAlignment= "Center" TextDecorations="Underline" TextColor="Black" FontFamily="ovo" BackgroundColor="#0080ff" HorizontalTextAlignment="Center"/>
+        <Label Text="Semester4(Level 6)"  Grid.Row="3" Grid.ColumnSpan="2" FontSize="20" TextColor="white" VerticalTextAlignment= "Center" FontFamily="ovo" BackgroundColor="#0080ff" HorizontalTextAlignment="Center"/>
 
-        <Button Text="Level 6 Elective " x:Name="deg65" Clicked="deg65_Clicked" Grid.Row="4" Grid.Column="0" BackgroundColor="#0080ff"/>
-        <Button Text="Level 6 Elective" x:Name="deg66" Clicked="deg66_Clicked" Grid.Row="4" Grid.Column="1" BackgroundColor="#0080ff" />
-        <Button Text="Level 6 Elective" x:Name="deg67" Clicked="deg67_Clicked" Grid.Row="5" Grid.Column="0" BackgroundColor="#0080ff" />
-        <Button Text="Level 6 Elective" x:Name="deg68" Clicked="deg68_Clicked" Grid.Row="5" Grid.Column="1" BackgroundColor="#0080ff" />
-        <ImageButton x:Name="back" Clicked="Back_Clicked" Grid.Row="6" Grid.Column="0" Source="Assets/back.PNG"></ImageButton>
-        <ImageButton x:Name="next" Clicked="Next_Clicked" Grid.Row="6" Grid.Column="1" Source="Assets/next.PNG"></ImageButton>
+        <Button Text="Level 6 Elective " x:Name="deg65" Clicked="deg65_Clicked" Grid.Row="4" Grid.Column="0" TextColor="white" BackgroundColor="#51A2D5"/>
+        <Button Text="Level 6 Elective" x:Name="deg66" Clicked="deg66_Clicked" Grid.Row="4" Grid.Column="1" TextColor="white" BackgroundColor="#51A2D5" />
+        <Button Text="Level 6 Elective" x:Name="deg67" Clicked="deg67_Clicked" Grid.Row="5" Grid.Column="0" TextColor="white" BackgroundColor="#51A2D5" />
+        <Button Text="Level 6 Elective" x:Name="deg68" Clicked="deg68_Clicked" Grid.Row="5" Grid.Column="1" TextColor="white" BackgroundColor="#51A2D5" />
+        <ImageButton x:Name="back" Clicked="Back_Clicked" Grid.Row="8" Grid.Column="0" Source="back.PNG"></ImageButton>
+        <ImageButton x:Name="next" Clicked="Next_Clicked" Grid.Row="8" Grid.Column="1" Source="next.PNG"></ImageButton>
     </Grid>
 </ContentPage>

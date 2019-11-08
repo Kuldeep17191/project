@@ -17,15 +17,13 @@
         </StackLayout>
         <!--<Image Source="Assets/main.jpg"  WidthRequest="300" Grid.Row="0" HeightRequest="300"/>-->
 
-        <Button Text="Certificate" Margin="3,3,3,3" FontAttributes="Bold" Grid.Row="1" Grid.Column="0" FontSize="15"  WidthRequest="120" TextColor="White" HorizontalOptions="Start" FontFamily="ovo" BackgroundColor="#0080ff" x:Name="Certificate" Clicked="Certificate_Clicked"/>
-        <Button Text="Diploma" Margin="3,3,3,3" FontAttributes="Bold" FontSize="15" WidthRequest="120" Grid.Row="1" Grid.Column="0" TextColor="White" FontFamily="ovo" HorizontalOptions="Center" BackgroundColor="#0080ff" x:Name="diploma" Clicked="diploma_Clicked"/>
-        <Button Text="Degree" Margin="3,3,3,3" FontAttributes="Bold" FontSize="15" WidthRequest="120" Grid.Row="1" Grid.Column="0" TextColor="White" FontFamily="ovo" HorizontalOptions="End" BackgroundColor="#0080ff"  x:Name="degree" Clicked="degree_Clicked"/>
+        <Button Text="Certificate" Margin="3,3,3,3" FontAttributes="Bold" Grid.Row="1" Grid.Column="0" FontSize="15"  WidthRequest="120" TextColor="White" HorizontalOptions="Start" FontFamily="ovo" BackgroundColor="#51A2D5" x:Name="Certificate" Clicked="Certificate_Clicked"/>
+        <Button Text="Diploma" Margin="3,3,3,3" FontAttributes="Bold" FontSize="15" WidthRequest="120" Grid.Row="1" Grid.Column="0" TextColor="White" FontFamily="ovo" HorizontalOptions="Center" BackgroundColor="#51A2D5" x:Name="diploma" Clicked="diploma_Clicked"/>
+        <Button Text="Degree" Margin="3,3,3,3" FontAttributes="Bold" FontSize="15" WidthRequest="120" Grid.Row="1" Grid.Column="0" TextColor="White" FontFamily="ovo" HorizontalOptions="End" BackgroundColor="#51A2D5"  x:Name="degree" Clicked="degree_Clicked"/>
         <!--</StackLayout>-->
         <StackLayout Spacing="0" MinimumHeightRequest="50" MinimumWidthRequest="50" Grid.Row="2" BackgroundColor="White">
 
-            <Label Text="Toi-Ohomai Campus" TextColor="Black"  HorizontalTextAlignment="Center" FontSize="22"  />
-
-
+            <Label Text="Toi-Ohomai Campus" TextColor="White"  HorizontalTextAlignment="Center" FontSize="22" BackgroundColor="#0080ff"/>
 
             <Label Text="  Toi Ohomai is a network of purposeful connections with our community and industry – together we are forming constellations of excellence, knowledge, people, partnerships and innovation throughout the region, united in the exchange of knowledge. We are all here to be awakened and inspired by learning and to ensure our people, communities and region continue to prosper and flourish.
 We are one of the largest tertiary providers in the Bay of Plenty. Our five main campuses can be found throughout the beautiful Bay of Plenty and South Waikato in Rotorua, Taupō, Tauranga, Tokoroa and Whakatāne." FontSize="17" Margin="3,3,3,0" />

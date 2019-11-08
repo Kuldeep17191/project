@@ -32,14 +32,14 @@
         <Label Text="Comp.5203 Professional Practice" FontSize="15" TextColor="White" Margin="3,0,2,0" VerticalTextAlignment="Center" Grid.Row="3"  HorizontalTextAlignment="Center" FontAttributes="Bold" BackgroundColor="#51A2D5" />
         <Label Text="Comp.5204 Enterprise" FontSize="15" TextColor="White" Margin="3,0,2,0" Grid.Row="4"  VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontAttributes="Bold" BackgroundColor="#51A2D5"/>
 
-        <Label Text="Requirements" Grid.Row="5" TextColor="#0080ff" FontSize="18" VerticalTextAlignment="Center" FontAttributes="Bold"/>
+        <Label Text="Requirements" Grid.Row="5" TextColor="#51A2D5" FontSize="18" VerticalTextAlignment="Center" FontAttributes="Bold"/>
         <StackLayout Orientation="Vertical" Grid.Row="6" Margin="5,5,5,5">
            
             <Label Text="1.IELTS Academic score with overall 6 not less than 5.5 bands"/>
             <Label Text="2.Secondary Education with 60% in any stream with Computer Subject"/>
             <Label Text="3.Standard Entry Criteria- By Interview"/>
         </StackLayout>
-        <ImageButton x:Name="back" Clicked="Back_Clicked" Grid.Row="7" Margin="5,5,5,5" BorderColor="Black" HorizontalOptions="End" Source="Resources/drawable/back.PNG"></ImageButton>
+        <ImageButton x:Name="back" Clicked="Back_Clicked" Grid.Row="7" Margin="5,5,5,5" BorderColor="Black" HorizontalOptions="End" Source="back.PNG"></ImageButton>
 
 
 

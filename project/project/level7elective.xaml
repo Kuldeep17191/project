@@ -10,29 +10,32 @@
 
         <Grid.RowDefinitions>
             <RowDefinition Height="50"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="70"/>
             <RowDefinition Height="50"/>
             <RowDefinition Height="70"/>
             <RowDefinition Height="70"/>
-            <RowDefinition Height="50"/>
             <RowDefinition Height="70"/>
             <RowDefinition Height="70"/>
             <RowDefinition Height="70"/>
+
 
         </Grid.RowDefinitions>
 
-        <Label Text="Level 7 Elective List" Grid.Row="0" Grid.ColumnSpan="2"  FontSize="20" VerticalTextAlignment= "Center" TextDecorations="Underline" TextColor="Black" FontFamily="ovo" BackgroundColor="#0080ff" HorizontalTextAlignment="Center"/>
+        <Label Text="Level 7 Elective List" Grid.Row="0" Grid.ColumnSpan="2"  FontSize="20" VerticalTextAlignment= "Center" TextDecorations="Underline" TextColor="White" FontFamily="ovo" BackgroundColor="#0080ff" HorizontalTextAlignment="Center"/>
 
-        <Label Text="Comp 7201 Large Network Technologies" VerticalTextAlignment="Center" Grid.Row="1" Grid.Column="0" BackgroundColor="#0080ff"/>
-        <Label Text="Comp.7202 System Security" Grid.Row="1" Grid.Column="1" BackgroundColor="#0080ff" />
-        <Label Text="Comp.7203 Cyber Security" Grid.Row="2" Grid.Column="0" BackgroundColor="#0080ff" />
-        <Label Text="Comp.7211 Advanced User Interface Programming" Grid.Row="2" Grid.Column="1" BackgroundColor="#0080ff" />
-        <Label Text="Comp.7212 Artificial Intellegence Techniques" Grid.Row="3" Grid.Column="0" BackgroundColor="#0080ff" />
-        <Label Text="Comp 7213 Human Computer Interation" VerticalTextAlignment="Center" Grid.Row="3" Grid.Column="1" BackgroundColor="#0080ff"/>
-        <Label Text="Comp.7214 Client ServerWeb Development" Grid.Row="4" Grid.Column="0" BackgroundColor="#0080ff" />
-        <Label Text="Comp.7215 Advanced Content Management Syastem Development" Grid.Row="4" Grid.Column="1" BackgroundColor="#0080ff" />
-        <Label Text="Comp 7216 Advanced System Analysis and Design" VerticalTextAlignment="Center" Grid.Row="5" Grid.Column="0" BackgroundColor="#0080ff"/>
-        <Label Text="Comp.7217 Advanced Data Administration" Grid.Row="5" Grid.Column="1" BackgroundColor="#0080ff" />
-        <Label Text="Comp.7112 Special Topic" Grid.Row="6" Grid.Column="0" BackgroundColor="#0080ff" />
-        <ImageButton x:Name="back" Clicked="Back_Clicked" Grid.Row="7" VerticalOptions="Center" HorizontalOptions="Center" Source="Assets/back.PNG"></ImageButton>
+        <Label Text="Comp 7201 Large Network Technologies" VerticalTextAlignment="Center" Grid.Row="1" Grid.Column="0" TextColor="White" BackgroundColor="#51A2D5"/>
+        <Label Text="Comp.7202 System Security" Grid.Row="1" Grid.Column="1" VerticalTextAlignment="Center" BackgroundColor="#51A2D5" TextColor="White"/>
+        <Label Text="Comp.7203 Cyber Security" Grid.Row="2" Grid.Column="0" VerticalTextAlignment="Center" BackgroundColor="#51A2D5" TextColor="White"/>
+        <Label Text="Comp.7211 Advanced User Interface Programming" VerticalTextAlignment="Center" Grid.Row="2" Grid.Column="1" TextColor="White" BackgroundColor="#51A2D5" />
+        <Label Text="Comp.7212 Artificial Intellegence Techniques" VerticalTextAlignment="Center" Grid.Row="3" Grid.Column="0" TextColor="White" BackgroundColor="#51A2D5" />
+        <Label Text="Comp 7213 Human Computer Interation" VerticalTextAlignment="Center" Grid.Row="3" Grid.Column="1" TextColor="White" BackgroundColor="#51A2D5"/>
+        <Label Text="Comp.7214 Client ServerWeb Development" VerticalTextAlignment="Center" Grid.Row="4" Grid.Column="0" TextColor="White" BackgroundColor="#51A2D5" />
+        <Label Text="Comp.7215 Advanced Content Management Syastem Development" VerticalTextAlignment="Center" Grid.Row="4" Grid.Column="1" TextColor="White" BackgroundColor="#51A2D5" />
+        <Label Text="Comp 7216 Advanced System Analysis and Design" VerticalTextAlignment="Center" Grid.Row="5" Grid.Column="0" TextColor="White" BackgroundColor="#51A2D5"/>
+        <Label Text="Comp.7217 Advanced Data Administration" VerticalTextAlignment="Center" Grid.Row="5" Grid.Column="1" TextColor="White" BackgroundColor="#51A2D5" />
+        <Label Text="Comp.7112 Special Topic" VerticalTextAlignment="Center" Grid.Row="6" Grid.Column="0" TextColor="White" BackgroundColor="#51A2D5" />
+        <ImageButton x:Name="back" Clicked="Back_Clicked" Grid.Row="8" VerticalOptions="Center" HorizontalOptions="Center" Source="back.PNG"></ImageButton>
     </Grid>
 </ContentPage>

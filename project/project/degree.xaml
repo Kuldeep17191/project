@@ -2,32 +2,38 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="project.degree">
-    <Grid Margin="10,10,10,10">
-        <!--<Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="*" />
-        </Grid.ColumnDefinitions>-->
-        <Grid.RowDefinitions>
-            <RowDefinition Height="50"/>
-            <RowDefinition Height="50"/>
-            <RowDefinition Height="30"/>
-            <RowDefinition Height="50"/>
-            <RowDefinition Height="30"/>
-            <RowDefinition Height="50"/>
-            <RowDefinition Height="50"/>
-        </Grid.RowDefinitions>
-        <StackLayout MinimumHeightRequest="30" MinimumWidthRequest="50" Grid.Row="0" Grid.ColumnSpan="2" BackgroundColor="WhiteSmoke">
+ 
+<Grid >
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="*" />
+        <ColumnDefinition Width=".5*" />
+        <ColumnDefinition Width="*" />
+    </Grid.ColumnDefinitions>
+    <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="53"/>
+        <RowDefinition Height="53"/>
+        <RowDefinition Height="53"/>
+            <RowDefinition Height="53"/>
+            <RowDefinition Height="53"/>
+        <RowDefinition Height="53"/>
+        <RowDefinition Height="60"/>
+    </Grid.RowDefinitions>
 
-            <Label Text="Degree"  FontSize="24" TextColor="Black" FontFamily="ovo" BackgroundColor="#0080ff" HorizontalTextAlignment="Center"/>
-        </StackLayout>
+        <Label Text="Degree" Grid.Row="0" FontSize="25" Grid.ColumnSpan="3" TextColor="White" FontFamily="ovo" BackgroundColor="#0080ff"  VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
 
 
-        <Label Text="level 5"   Grid.Row="1" Grid.ColumnSpan="2"  HorizontalTextAlignment="Center" BackgroundColor="#0080ff"/>
-        <Label Text="+"   Grid.Row="2" Grid.ColumnSpan="2" HorizontalTextAlignment="Center" BackgroundColor="White"/>
-        <Label Text="level 6"   Grid.Row="3"  Grid.ColumnSpan="2" HorizontalTextAlignment="Center" BackgroundColor="#0080ff" />
-        <Label Text="+"   Grid.Row="4" Grid.ColumnSpan="2" HorizontalTextAlignment="Center" BackgroundColor="White"/>
-        <Label Text="level 7"  Grid.Row="5"  Grid.ColumnSpan="2" HorizontalTextAlignment="Center" BackgroundColor="#0080ff" />
-        <ImageButton x:Name="next" Clicked="Next_Clicked" Grid.Row="6" Grid.Column="2" HorizontalOptions="Center" Source="Assets/next.PNG"></ImageButton>
-    </Grid>
+        <Button Text="level 5"  Grid.ColumnSpan="3" x:Name="deglevel5" Clicked="deglevel5_Clicked" TextColor="white"  FontSize="15" Grid.Row="1" BackgroundColor="#51A2D5"/>
+    <Label Text="+" Grid.ColumnSpan="3" VerticalTextAlignment="Center" TextColor="Blue" HorizontalTextAlignment="Center" FontSize="15" Grid.Row="2" BackgroundColor="White" />
+        <Button Text="level 6" Grid.ColumnSpan="3" x:Name="deglevel6" Clicked="deglevel6_Clicked" TextColor="white" FontSize="15" Grid.Row="3"  BackgroundColor="#51A2D5" />
+        <Label Text="+" Grid.ColumnSpan="3" Grid.Row="4" TextColor="Blue" VerticalTextAlignment="Center" FontSize="15" HorizontalTextAlignment="Center" BackgroundColor="White"/>
+
+        <Button Text="level 7" Grid.ColumnSpan="3"  x:Name="deglevel7" Clicked="deglevel7_Clicked" TextColor="white" Grid.Row="5" FontSize="15" WidthRequest="200"  BackgroundColor="#51A2D5"/>
+    <ImageButton x:Name="back" Clicked="Back_Clicked" Grid.Row="9" Grid.Column="0" Margin="0,15,0,0" VerticalOptions="Center" HorizontalOptions="Center" Source="Assets/back.PNG"></ImageButton>
+    <!--<ImageButton x:Name="home" Clicked="home_Clicked" Grid.Row="11" Grid.Column="1" BorderColor="Black" HorizontalOptions="Center" Source="Resources/drawable/hm.PNG"></ImageButton>-->
+    <Button Text="Click Here For Requirements" x:Name="requirements" Grid.ColumnSpan="2" Clicked="requirement_Clicked" TextColor="DarkBlue"  Grid.Row="9" Grid.Column="1" HorizontalOptions="Center" FontSize="12" BackgroundColor="Transparent" />
+
+</Grid>
+
 </ContentPage>
     

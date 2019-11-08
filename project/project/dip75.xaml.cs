@@ -49,5 +49,10 @@ namespace project
         {
             await Navigation.PushAsync(new level7elective());
         }
+        private async void requirement_Clicked(object sender, EventArgs e)
+        {
+            await DisplayAlert("Reqirements", "1.IELTS Academic score with overall 6 not less than 5 bands.\n 2.Secondary Education with 60% in any stream with Computer Subject.\n3.Standard Entry Criteria- By Interview.", "ok");
+        }
+
     }
 }

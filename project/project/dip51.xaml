@@ -27,7 +27,7 @@
 
         <!--<StackLayout MinimumHeightRequest="30" MinimumWidthRequest="50" Grid.Row="0" >-->
 
-            <Label Text="NZ Diploma in Web Development and design" Grid.Row="0" FontSize="25" Grid.ColumnSpan="3" TextColor="White" FontFamily="ovo" BackgroundColor="#0080ff"  VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+        <Label Text="NZ Diploma in Web Development and design" Grid.Row="0" FontSize="25" Grid.ColumnSpan="3" TextColor="White" FontFamily="ovo" BackgroundColor="#0080ff"  VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
 
         <!--</StackLayout>-->
         <Label Text="Semester1" Grid.Row="1"  FontSize="15" VerticalTextAlignment= "Center" Grid.ColumnSpan="3" TextColor="white" FontFamily="ovo" BackgroundColor="#0080ff" HorizontalTextAlignment="Center"/>
